@@ -39,7 +39,7 @@ export default {
     console.log(data)
     this.dataDate = data.Date
     this.status = data.Global
-    this.coutries = data.Countries
+    this.countries = data.Countries
     this.loading = false
   },
   methods: {
