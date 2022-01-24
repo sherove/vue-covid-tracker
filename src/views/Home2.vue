@@ -69,7 +69,7 @@ export default {
       this.dataDate = this.responseData.Date
       this.title = 'Global'
       this.status = this.responseData.Global
-      // this.$refs.countrySelect.data.selected = 0 이거내일해야지
+      this.$refs.countrySelect.$refs.selected = 0 이거내일해야지
     }
   }
 }
